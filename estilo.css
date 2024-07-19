@@ -1,0 +1,97 @@
+body{
+margin: 0;
+padding: 0;
+}
+.contenedor1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container {
+padding: 20px;
+border-radius: 8px;
+width: 700px;
+text-align: center;
+}
+h1{
+margin: 0;
+}
+.logo {
+width: 100px;
+display: flex;
+}
+.contenido{
+margin-bottom: 20px;
+}
+.contenido img {
+width: 100%;
+border-radius: 8px;
+}
+.botones {
+display: flex;
+justify-content: space-between;
+}
+#costo{
+color: red;
+}
+.botones button{
+background-color: #89494A;
+padding: 15px;
+color: white;
+font-weight: bold;
+}
+.detalles{
+display: flex;
+}
+.informacion{
+width: 50%;
+text-align: left;
+padding-left: 50px;
+margin: auto;
+}
+.informacion p {
+margin: 10px 0;
+font-size: 18px;
+}
+.prueba {
+display: none;
+}
+#alerta{
+color: #0B05C6;
+font-size: 30px;
+margin-top: 20px;
+text-align: center;
+}
+.contenedor2{
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #FFFFFF;
+}
+.contenido2 {
+text-align: center;
+position: absolute;
+top: 50%;
+}
+.cambio {
+background-color: white;
+padding: 20px;
+border: 1px solid black;
+border-radius: 10px;
+}
+#palabras {
+display: block;
+font-size: 2em;
+margin-bottom: 20px;
+}
+#cambiador2 {
+padding: 10px 20px;
+font-size: 1em;
+cursor: pointer;
+border: none;
+background-color: #008CBA;
+color: white;
+border-radius: 5px;
+}
+
